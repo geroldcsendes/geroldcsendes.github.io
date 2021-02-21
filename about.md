@@ -1,4 +1,4 @@
 # About
 
-This is where you put the contents of your *About* page. Like all your pages, it's in [Markdown](https://guides.github.com/features/mastering-markdown/) format.
-
+My name is Gerold and I do ML for a living. I created this blog to share some stuff on all kinds of data science related stuff.
+Hope you will some of my blogs valuable. Cheers!
