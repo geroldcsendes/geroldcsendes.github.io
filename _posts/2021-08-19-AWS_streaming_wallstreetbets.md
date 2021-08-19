@@ -1,3 +1,5 @@
+# Streaming r/wallstreetbets using AWS
+
 ## TL;DR
 
 Data are probably the most valuable asset for a hedge fund and they might want to track what is going on at r/wallstreetbets. By creating a data streaming architecture on AWS, you can easily ingest data in a scalable fashion, in real-time. You may then feed them to an NLP model to create valuable features for downstream AI/ML tasks.
