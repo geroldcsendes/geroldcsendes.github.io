@@ -16,7 +16,7 @@ If you are still hanging on, let me quickly show you how you can set up the data
 
 ## Tech overview
 
-![title](images/streaming-demo-arch.png)
+![Streaming architecture](images/streaming-demo-arch.png)
 
 The above diagram shows the AWS architecture of this mini project. The data producer is an EC2 instance that runs a small Python script `tutorial.py` which uses the Python Reddit API wrapper to query data from Reddit and sends it to the Kinesis Data Stream. Actually, a Lambda function would do just as fine instead of an EC2 instance and you can also enjoy the perks of going serverless. A dummy Kinesis Data Analytics app is built to read from the delivery stream in real time using SQL queries. I just implemented a really dumb app that filters out all comments with less than 10 score. Here, again, you could simply just use a Lambda. The output of this is delivered to Kinesis Data Firehose to persist data in S3.
 
@@ -54,7 +54,7 @@ In this architecture, we use Kinesis Data Stream, Analytics and Firehose, too. A
 
 If you wait a few minutes, you will see the raw Reddit comments coming from Kinesis Data Stream to Analytics. 
 
-![title](images/streaming-scr.png)
+![Streamed data](images/streaming-scr.png)
 
 ## What to do next
 
