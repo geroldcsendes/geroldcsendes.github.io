@@ -1,1 +1,0 @@
-Hello and welcome to this blog. Below you can find my blogposts.
