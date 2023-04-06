@@ -59,7 +59,7 @@ plugins:
 
 author:
   name   : "Gerold Csendes"
-  avatar : "/assets/images/bio-photo.jpg"
+  avatar : "/assets/images/gerold-ai-avatar.JPG"
   bio    : "Research engineer, dog-person and a curious mind."
   links:
     - label: "GitHub"
