@@ -13,8 +13,9 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Non-Adversarial Learning
-email:
+title: Gerold's blog
+email: gerold<dot>csendes<at>gmail<dot>com
+name: Gerold Csendes
 description: >- # this means to ignore newlines until "baseurl:"
   I like sharing what I do or learn in AI. Hopefully, some people will find these materials useful
   and have an easier time practicing AI.
@@ -33,6 +34,7 @@ timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 include:
   - _pages
+  - images
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -58,17 +60,23 @@ plugins:
 author:
   name   : "Gerold Csendes"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "AI engineer, dog-person and a curious mind."
+  bio    : "Research engineer, dog-person and a curious mind."
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/geroldcsendes"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/gcsendes"
 
 footer:
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/geroldcsendes"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/gcsendes"
 
 defaults:
   # _posts
