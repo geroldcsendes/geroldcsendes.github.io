@@ -6,7 +6,8 @@ _site
 .jekyll-cache
 .jekyll-metadata
 vendor
-_notebooks/.ipynb_checkpoints
-_posts/.ipynb_checkpoints
+.ipynb_checkpoints
+#_notebooks/.ipynb_checkpoints
+#_posts/.ipynb_checkpoints
 Makefile
 _WIP/
