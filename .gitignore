@@ -11,3 +11,4 @@ vendor
 #_posts/.ipynb_checkpoints
 Makefile
 _WIP/
+!_WIP/2023-07-11-*
