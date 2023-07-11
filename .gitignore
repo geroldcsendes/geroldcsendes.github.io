@@ -7,4 +7,6 @@ _site
 .jekyll-metadata
 vendor
 _notebooks/.ipynb_checkpoints
+_posts/.ipynb_checkpoints
 Makefile
+_WIP/
